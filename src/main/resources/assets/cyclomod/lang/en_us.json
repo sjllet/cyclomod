@@ -1,8 +1,12 @@
 {
   "item.cyclomod.raw_willovium": "Raw Willovium",
   "item.cyclomod.willovium_ingot": "Willovium Ingot",
-
+  "item.cyclomod.willovium_nugget": "Willovium Nugget",
   "block.cyclomod.willovium_block": "Willovium Block",
+  "block.cyclomod.willovium_ore": "Willovium Ore",
+  "block.cyclomod.deepslate_willovium_ore": "Deepslate Willovium Ore",
+  "block.cyclomod.nether_willovium_ore": "Nether Willovium Ore",
+  "block.cyclomod.end_stone_willovium_ore": "End Stone Willovium Ore",
 
   "creativetab.cyclomod_tab": "CycloMod"
 }

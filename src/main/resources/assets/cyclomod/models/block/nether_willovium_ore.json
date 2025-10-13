@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cyclomod:block/nether_willovium_ore"
+  }
+}

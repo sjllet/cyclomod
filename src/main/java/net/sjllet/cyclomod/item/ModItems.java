@@ -17,6 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WILLOVIUM_INGOT = ITEMS.register("willovium_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WILLOVIUM_NUGGET = ITEMS.register("willovium_nugget",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

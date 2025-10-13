@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cyclomod:block/end_stone_willovium_ore"
+  }
+}

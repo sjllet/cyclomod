@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cyclomod:willovium_ingot"
+    }
+  ],
+  "result": {
+    "item": "cyclomod:willovium_nugget",
+    "count": 9
+  }
+}
