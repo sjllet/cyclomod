@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sjllet.cyclomod.CycloMod;
+import net.sjllet.cyclomod.item.custom.MetalDetectorItem;
 
 import java.util.Properties;
 
@@ -19,6 +20,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WILLOVIUM_NUGGET = ITEMS.register("willovium_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(150)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
