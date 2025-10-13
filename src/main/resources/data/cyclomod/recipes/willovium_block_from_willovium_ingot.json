@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cyclomod:willovium_ingot"
+    }
+  },
+  "result": {
+    "item": "cyclomod:willovium_block"
+  }
+}
