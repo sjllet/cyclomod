@@ -1,9 +1,16 @@
 {
   "values": [
     "cyclomod:willovium_block",
+    "cyclomod:raw_willovium_block",
     "cyclomod:willovium_ore",
     "cyclomod:deepslate_willovium_ore",
     "cyclomod:nether_willovium_ore",
-    "cyclomod:end_stone_willovium_ore"
+    "cyclomod:end_stone_willovium_ore",
+    "cyclomod:sihirlite_block",
+    "cyclomod:budding_sihirlite",
+    "cyclomod:sihirlite_cluster",
+    "cyclomod:small_sihirlite_bud",
+    "cyclomod:medium_sihirlite_bud",
+    "cyclomod:large_sihirlite_bud"
   ]
 }

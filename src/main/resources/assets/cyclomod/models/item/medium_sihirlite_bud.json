@@ -1,0 +1,11 @@
+  {
+  "parent": "cyclomod:item/sihirlite_bud",
+  "textures": {
+    "layer0": "cyclomod:block/medium_sihirlite_bud"
+  },
+  "display": {
+    "fixed": {
+      "translation": [ 0, 6, 0 ]
+    }
+  }
+}

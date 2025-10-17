@@ -2,13 +2,21 @@
   "item.cyclomod.raw_willovium": "Raw Willovium",
   "item.cyclomod.willovium_ingot": "Willovium Ingot",
   "item.cyclomod.willovium_nugget": "Willovium Nugget",
-  "block.cyclomod.willovium_block": "Willovium Block",
+  "block.cyclomod.willovium_block": "Block of Willovium",
+  "block.cyclomod.raw_willovium_block": "Block of Raw Willovium",
   "block.cyclomod.willovium_ore": "Willovium Ore",
   "block.cyclomod.deepslate_willovium_ore": "Deepslate Willovium Ore",
   "block.cyclomod.nether_willovium_ore": "Nether Willovium Ore",
   "block.cyclomod.end_stone_willovium_ore": "End Stone Willovium Ore",
   "item.cyclomod.metal_detector": "Metal Detector",
   "item.cyclomod.sound_block": "Sound Block",
+  "block.cyclomod.sihirlite_block": "Block of Sihirlite",
+  "block.cyclomod.budding_sihirlite": "Budding Sihirlite",
+  "block.cyclomod.sihirlite_cluster": "Sihirlite Cluster",
+  "block.cyclomod.small_sihirlite_bud": "Small Sihirlite Bud",
+  "block.cyclomod.medium_sihirlite_bud": "Medium Sihirlite Bud",
+  "block.cyclomod.large_sihirlite_bud": "Large Sihirlite Bud",
+  "item.cyclomod.sihirlite_shard": "Sihirlite Shard",
 
   "creativetab.cyclomod_tab": "CycloMod"
 }

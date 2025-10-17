@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "cyclomod:block/sihirlite_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "cyclomod:block/sihirlite_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "cyclomod:block/sihirlite_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "cyclomod:block/sihirlite_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "cyclomod:block/sihirlite_cluster"
+    },
+    "facing=west": {
+      "model": "cyclomod:block/sihirlite_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

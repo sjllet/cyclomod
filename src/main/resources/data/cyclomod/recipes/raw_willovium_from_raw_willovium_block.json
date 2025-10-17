@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cyclomod:raw_willovium_block"
+    }
+  ],
+  "result": {
+    "item": "cyclomod:raw_willovium",
+    "count": 9
+  }
+}

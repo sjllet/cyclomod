@@ -22,12 +22,20 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.WILLOVIUM_INGOT.get());
                         output.accept(ModItems.WILLOVIUM_NUGGET.get());
                         output.accept(ModBlocks.WILLOVIUM_BLOCK.get());
+                        output.accept(ModBlocks.RAW_WILLOVIUM_BLOCK.get());
                         output.accept(ModBlocks.WILLOVIUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_WILLOVIUM_ORE.get());
                         output.accept(ModBlocks.NETHER_WILLOVIUM_ORE.get());
                         output.accept(ModBlocks.END_STONE_WILLOVIUM_ORE.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
+                        output.accept(ModBlocks.SIHIRLITE_BLOCK.get());
+                        output.accept(ModBlocks.BUDDING_SIHIRLITE.get());
+                        output.accept(ModBlocks.SMALL_SIHIRLITE_BUD.get());
+                        output.accept(ModBlocks.MEDIUM_SIHIRLITE_BUD.get());
+                        output.accept(ModBlocks.LARGE_SIHIRLITE_BUD.get());
+                        output.accept(ModBlocks.SIHIRLITE_CLUSTER.get());
+                        output.accept(ModItems.SIHIRLITE_SHARD.get());
                     })
                     .build());
 
