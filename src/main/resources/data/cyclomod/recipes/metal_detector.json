@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  P",
+    " PR",
+    "WS "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "cyclomod:willovium_ingot"
+    },
+    "S": {
+      "item": "cyclomod:sihirlite_shard"
+    }
+  },
+  "result": {
+    "item": "cyclomod:metal_detector"
+  }
+}
