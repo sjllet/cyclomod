@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cyclomod:block/sound_block"
+    }
+  }
+}

@@ -8,6 +8,7 @@
   "block.cyclomod.nether_willovium_ore": "Nether Willovium Ore",
   "block.cyclomod.end_stone_willovium_ore": "End Stone Willovium Ore",
   "item.cyclomod.metal_detector": "Metal Detector",
+  "item.cyclomod.sound_block": "Sound Block",
 
   "creativetab.cyclomod_tab": "CycloMod"
 }

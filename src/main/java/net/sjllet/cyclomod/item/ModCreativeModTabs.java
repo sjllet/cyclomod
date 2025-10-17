@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.NETHER_WILLOVIUM_ORE.get());
                         output.accept(ModBlocks.END_STONE_WILLOVIUM_ORE.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
