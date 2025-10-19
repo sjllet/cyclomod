@@ -7,4 +7,7 @@ import net.minecraft.world.food.FoodProperties;
 public class ModFoods {
     public static final FoodProperties RIVATO_GUM = new FoodProperties.Builder().nutrition(11)
             .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 200), 1.0f).build();
+
+    public static final FoodProperties ALCOHOL = new FoodProperties.Builder().nutrition(0)
+            .saturationMod(0.0f).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200), 1.0f).build();
 }

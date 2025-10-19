@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sjllet.cyclomod.CycloMod;
+import net.sjllet.cyclomod.item.custom.DrinkItem;
 import net.sjllet.cyclomod.item.custom.FuelItem;
 import net.sjllet.cyclomod.item.custom.MetalDetectorItem;
 
@@ -36,7 +37,7 @@ public class ModItems {
     public static final RegistryObject<Item> CANNON_CORE = ITEMS.register("cannon_core",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ALCOHOL = ITEMS.register("alcohol",
-            () -> new Item(new Item.Properties()));
+            () -> new DrinkItem(new Item.Properties().food(ModFoods.ALCOHOL)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
