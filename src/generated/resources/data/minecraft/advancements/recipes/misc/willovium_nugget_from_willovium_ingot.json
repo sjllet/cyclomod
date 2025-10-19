@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:willovium_nugget_from_willovium_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_willovium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cyclomod:willovium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_willovium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:willovium_nugget_from_willovium_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

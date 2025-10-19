@@ -1,0 +1,6 @@
+// 1.20.1	2025-10-19T10:19:31.9760296	Tags for minecraft:block mod id cyclomod
+4d033504d89dd349c313d878aa55a344478f170b data/cyclomod/tags/blocks/metal_detector_valuables.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+16ab92d2b29e11a489cd079d75c8ac719c8de0d7 data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+acfda1c71f6062d0a5c14812b4074ac08e8270d3 data/minecraft/tags/blocks/needs_iron_tool.json

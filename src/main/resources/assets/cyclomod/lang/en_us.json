@@ -17,6 +17,12 @@
   "block.cyclomod.medium_sihirlite_bud": "Medium Sihirlite Bud",
   "block.cyclomod.large_sihirlite_bud": "Large Sihirlite Bud",
   "item.cyclomod.sihirlite_shard": "Sihirlite Shard",
+  "item.cyclomod.silver_gunpowder": "Silver Gunpowder",
+  "item.cyclomod.gear": "Gear",
+  "item.cyclomod.titanium_star": "Titanium Star",
+  "item.cyclomod.rivato_gum": "Rivato Gum",
+  "item.cyclomod.cannon_core": "Cannon Core",
+  "item.cyclomod.alcohol": "Alcohol",
 
   "creativetab.cyclomod_tab": "CycloMod"
 }

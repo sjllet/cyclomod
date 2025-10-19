@@ -1,0 +1,29 @@
+[19oct.2025 10:19:03.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\janre\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, cyclomod, --all, --output, C:\Users\janre\Git\cyclomod\src\generated\resources, --existing, C:\Users\janre\Git\cyclomod\src\main\resources]
+[19oct.2025 10:19:03.050] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[19oct.2025 10:19:03.318] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[19oct.2025 10:19:03.456] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/janre/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[19oct.2025 10:19:04.153] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\janre\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[19oct.2025 10:19:04.167] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\janre\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[19oct.2025 10:19:04.178] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\janre\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[19oct.2025 10:19:04.191] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\janre\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[19oct.2025 10:19:04.483] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[19oct.2025 10:19:08.539] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\janre\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, cyclomod, --all, --output, C:\Users\janre\Git\cyclomod\src\generated\resources, --existing, C:\Users\janre\Git\cyclomod\src\main\resources]
+[19oct.2025 10:19:09.952] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [cyclomod]
+[19oct.2025 10:19:28.319] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[19oct.2025 10:19:28.334] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[19oct.2025 10:19:29.846] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/janre/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[19oct.2025 10:19:29.848] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/janre/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[19oct.2025 10:19:30.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[19oct.2025 10:19:30.623] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 173 ms
+[19oct.2025 10:19:30.624] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[19oct.2025 10:19:30.794] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 169 ms
+[19oct.2025 10:19:30.795] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: cyclomod
+[19oct.2025 10:19:31.665] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: cyclomod finished after 870 ms
+[19oct.2025 10:19:31.666] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: cyclomod
+[19oct.2025 10:19:31.875] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: cyclomod finished after 208 ms
+[19oct.2025 10:19:31.875] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id cyclomod
+[19oct.2025 10:19:31.966] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id cyclomod finished after 90 ms
+[19oct.2025 10:19:31.966] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id cyclomod
+[19oct.2025 10:19:31.973] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id cyclomod finished after 6 ms
+[19oct.2025 10:19:31.974] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1527 ms
+[19oct.2025 10:19:32.197] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 84, old count: 0, new count: 85, removed stale: 0, written: 84

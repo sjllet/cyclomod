@@ -1,0 +1,10 @@
+{
+  "values": [
+    "cyclomod:willovium_ore",
+    "cyclomod:deepslate_willovium_ore",
+    "cyclomod:nether_willovium_ore",
+    "cyclomod:end_stone_willovium_ore",
+    "cyclomod:budding_sihirlite",
+    "#forge:ores"
+  ]
+}

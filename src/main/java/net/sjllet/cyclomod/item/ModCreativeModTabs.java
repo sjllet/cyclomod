@@ -36,6 +36,12 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.LARGE_SIHIRLITE_BUD.get());
                         output.accept(ModBlocks.SIHIRLITE_CLUSTER.get());
                         output.accept(ModItems.SIHIRLITE_SHARD.get());
+                        output.accept(ModItems.SILVER_GUNPOWDER.get());
+                        output.accept(ModItems.GEAR.get());
+                        output.accept(ModItems.TITANIUM_STAR.get());
+                        output.accept(ModItems.RIVATO_GUM.get());
+                        output.accept(ModItems.ALCOHOL.get());
+                        output.accept(ModItems.CANNON_CORE.get());
                     })
                     .build());
 

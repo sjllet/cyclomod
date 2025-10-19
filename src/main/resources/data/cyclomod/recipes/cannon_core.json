@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cyclomod:silver_gunpowder"
+    },
+    {
+      "item": "cyclomod:titanium_star"
+    },
+    {
+      "item": "cyclomod:rivato_gum",
+      "count": 2
+    },
+    {
+      "item": "cyclomod:alcohol"
+    }
+  ],
+  "result": {
+    "item": "cyclomod:cannon_core"
+  }
+}

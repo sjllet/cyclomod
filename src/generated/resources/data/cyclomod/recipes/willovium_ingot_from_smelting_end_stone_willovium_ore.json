@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "willovium",
+  "ingredient": {
+    "item": "cyclomod:end_stone_willovium_ore"
+  },
+  "result": "cyclomod:willovium_ingot"
+}
