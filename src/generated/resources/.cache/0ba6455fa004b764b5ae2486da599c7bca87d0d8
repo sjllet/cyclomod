@@ -1,6 +1,6 @@
-// 1.20.1	2025-10-20T22:07:34.1410106	Tags for minecraft:block mod id cyclomod
+// 1.20.1	2025-10-20T23:09:38.8021892	Tags for minecraft:block mod id cyclomod
 4d033504d89dd349c313d878aa55a344478f170b data/cyclomod/tags/blocks/metal_detector_valuables.json
-05bfa5957139c7e74485d26fa008f94d6d9758ef data/cyclomod/tags/blocks/needs_willovium_tool.json
+fa5d9806f09582c334c2c2b3c6cb9f12c6d121ff data/cyclomod/tags/blocks/needs_willovium_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 5cbaf9fbfbfad347a148e1275dd741cb2ce19e69 data/minecraft/tags/blocks/fences.json
 9d18737b124ac8cfa1c022ec80450e752f96b907 data/minecraft/tags/blocks/fence_gates.json

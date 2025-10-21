@@ -2,6 +2,8 @@ package net.sjllet.cyclomod.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
@@ -52,6 +54,69 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.WILLOVIUM_NUGGET.get()), has(ModItems.WILLOVIUM_NUGGET.get()))
                 .save(pWriter, "willovium_ingot_from_willovium_nugget");
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_STAIRS.get())
+                .pattern("W  ")
+                .pattern("WW ")
+                .pattern("WWW")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_SLAB.get())
+                .pattern("WWW")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.WILLOVIUM_BUTTON.get())
+                .requires(ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_PRESSURE_PLATE.get())
+                .pattern("WW")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_FENCE.get())
+                .pattern("BIB")
+                .pattern("BIB")
+                .define('B', ModBlocks.WILLOVIUM_BLOCK.get())
+                .define('I', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModBlocks.WILLOVIUM_BLOCK.get()), has(ModBlocks.WILLOVIUM_BLOCK.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_FENCE_GATE.get())
+                .pattern("IBI")
+                .pattern("IBI")
+                .define('B', ModBlocks.WILLOVIUM_BLOCK.get())
+                .define('I', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModBlocks.WILLOVIUM_BLOCK.get()), has(ModBlocks.WILLOVIUM_BLOCK.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_WALL.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', ModBlocks.WILLOVIUM_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.WILLOVIUM_BLOCK.get()), has(ModBlocks.WILLOVIUM_BLOCK.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_DOOR.get())
+                .pattern("WW")
+                .pattern("WW")
+                .pattern("WW")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WILLOVIUM_TRAPDOOR.get())
+                .pattern("WWW")
+                .pattern("WWW")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SIHIRLITE_BLOCK.get())
                 .pattern("SS")
                 .pattern("SS")
@@ -73,6 +138,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.WILLOVIUM_INGOT.get())
                 .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
                 .save(pWriter, "willovium_nugget_from_willovium_ingot");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WILLOVIUM_SWORD.get())
+                .pattern("W")
+                .pattern("W")
+                .pattern("P")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .define('P', Items.STICK)
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WILLOVIUM_PICKAXE.get())
+                .pattern("WWW")
+                .pattern(" P ")
+                .pattern(" P ")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .define('P', Items.STICK)
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WILLOVIUM_AXE.get())
+                .pattern(" WW")
+                .pattern(" PW")
+                .pattern(" P ")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .define('P', Items.STICK)
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WILLOVIUM_SHOVEL.get())
+                .pattern("W")
+                .pattern("P")
+                .pattern("P")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .define('P', Items.STICK)
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WILLOVIUM_HOE.get())
+                .pattern("WW")
+                .pattern("P ")
+                .pattern("P ")
+                .define('W', ModItems.WILLOVIUM_INGOT.get())
+                .define('P', Items.STICK)
+                .unlockedBy(getHasName(ModItems.WILLOVIUM_INGOT.get()), has(ModItems.WILLOVIUM_INGOT.get()))
+                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

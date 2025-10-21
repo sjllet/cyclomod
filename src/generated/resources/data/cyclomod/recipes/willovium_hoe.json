@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "cyclomod:willovium_ingot"
+    }
+  },
+  "pattern": [
+    "WW",
+    "P ",
+    "P "
+  ],
+  "result": {
+    "item": "cyclomod:willovium_hoe"
+  },
+  "show_notification": true
+}

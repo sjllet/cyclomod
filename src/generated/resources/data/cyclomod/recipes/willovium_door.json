@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "cyclomod:willovium_ingot"
+    }
+  },
+  "pattern": [
+    "WW",
+    "WW",
+    "WW"
+  ],
+  "result": {
+    "item": "cyclomod:willovium_door"
+  },
+  "show_notification": true
+}

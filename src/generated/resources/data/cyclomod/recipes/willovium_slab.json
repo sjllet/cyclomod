@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "cyclomod:willovium_ingot"
+    }
+  },
+  "pattern": [
+    "WWW"
+  ],
+  "result": {
+    "item": "cyclomod:willovium_slab"
+  },
+  "show_notification": true
+}

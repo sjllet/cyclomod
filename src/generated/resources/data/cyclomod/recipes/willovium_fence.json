@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "cyclomod:willovium_block"
+    },
+    "I": {
+      "item": "cyclomod:willovium_ingot"
+    }
+  },
+  "pattern": [
+    "BIB",
+    "BIB"
+  ],
+  "result": {
+    "item": "cyclomod:willovium_fence"
+  },
+  "show_notification": true
+}

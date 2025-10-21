@@ -3,11 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "cyclomod:willovium_block"
+      "item": "cyclomod:willovium_ingot"
     }
   ],
   "result": {
-    "count": 9,
-    "item": "cyclomod:willovium_ingot"
+    "item": "cyclomod:willovium_button"
   }
 }

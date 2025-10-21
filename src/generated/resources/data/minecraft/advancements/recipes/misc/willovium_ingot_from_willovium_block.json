@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_willovium_block": {
+    "has_willovium_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "cyclomod:willovium_block"
+              "cyclomod:willovium_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_willovium_block",
+      "has_willovium_ingot",
       "has_the_recipe"
     ]
   ],

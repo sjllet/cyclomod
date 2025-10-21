@@ -2,7 +2,6 @@
   "values": [
     "cyclomod:sihirlite_block",
     "cyclomod:budding_sihirlite",
-    "cyclomod:sihirlite_cluster",
-    "cyclomod:sound_block"
+    "cyclomod:sihirlite_cluster"
   ]
 }

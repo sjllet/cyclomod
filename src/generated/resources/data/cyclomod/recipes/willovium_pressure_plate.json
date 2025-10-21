@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "cyclomod:willovium_ingot"
+    }
+  },
+  "pattern": [
+    "WW"
+  ],
+  "result": {
+    "item": "cyclomod:willovium_pressure_plate"
+  },
+  "show_notification": true
+}
