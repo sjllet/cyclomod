@@ -1,4 +1,4 @@
-// 1.20.1	2025-10-19T10:19:31.98469	Item Models: cyclomod
+// 1.20.1	2025-10-20T22:07:34.1440036	Item Models: cyclomod
 0c565fb03a243138a49724eab3bdc7861b7ce733 assets/cyclomod/models/item/alcohol.json
 4329f6917851f1faa7cab56616a95d87875fd39f assets/cyclomod/models/item/gear.json
 fc51aebe41b0908d5fd839de2d0a6bb7e88980dc assets/cyclomod/models/item/metal_detector.json
@@ -7,5 +7,19 @@ c6831260b672dac3341dbf7f50cbb9d5e92cf1f1 assets/cyclomod/models/item/rivato_gum.
 a4a284170334191cd11cd39a3e3de258b6b720c4 assets/cyclomod/models/item/sihirlite_shard.json
 846b873993936ee235d697d2e8ff29e4af3dfcf9 assets/cyclomod/models/item/silver_gunpowder.json
 5b2f885bf9a6ae1fb49bbf7d1cacac9d552b42ce assets/cyclomod/models/item/titanium_star.json
+77bb67941d0aae4b4086ce87d88760dded1ee202 assets/cyclomod/models/item/willovium_axe.json
+01d51084f5e8da35df8eafb2d4eb260684ac2dbe assets/cyclomod/models/item/willovium_button.json
+6e00c54eb1960ede181dfa71ce28aad148454280 assets/cyclomod/models/item/willovium_door.json
+1cc095e8635fa3b19cceebc78042f537788e16c5 assets/cyclomod/models/item/willovium_fence.json
+8ee318ca0b622dbd16a3b58c9c7b6c3abc3755e5 assets/cyclomod/models/item/willovium_fence_gate.json
+f3fb52e7b164173b8ee8443744651926093c27b7 assets/cyclomod/models/item/willovium_hoe.json
 58e7036afa24389100d91373d1d903c9f862e2b9 assets/cyclomod/models/item/willovium_ingot.json
 a729be8cf149bc3cc86a85eaac2a118ffa5f4eaa assets/cyclomod/models/item/willovium_nugget.json
+395f3c90a41e808f4ebf54fc341f309379193f61 assets/cyclomod/models/item/willovium_pickaxe.json
+52a819e23b067327a21e232285c7c947062164d8 assets/cyclomod/models/item/willovium_pressure_plate.json
+3d161250d4a4420cf3838fccd8c59f336489d737 assets/cyclomod/models/item/willovium_shovel.json
+0c17fbef57f547f2970c3964293aa318f642cfe4 assets/cyclomod/models/item/willovium_slab.json
+4a57ff18f9ca424cd0db44391e9604772704d50d assets/cyclomod/models/item/willovium_stairs.json
+d4a9851b1a74ef51d88981668a04d9f1a3880095 assets/cyclomod/models/item/willovium_sword.json
+1b043b02df4eecea225d626eba8ceacea6f53450 assets/cyclomod/models/item/willovium_trapdoor.json
+933c5e6f9a72a55939cf09a348eaf2c29ae5ded6 assets/cyclomod/models/item/willovium_wall.json

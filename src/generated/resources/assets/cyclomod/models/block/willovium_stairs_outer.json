@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "cyclomod:block/willovium_block",
+    "side": "cyclomod:block/willovium_block",
+    "top": "cyclomod:block/willovium_block"
+  }
+}

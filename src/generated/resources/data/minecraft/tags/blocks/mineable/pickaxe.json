@@ -11,6 +11,15 @@
     "cyclomod:sihirlite_cluster",
     "cyclomod:small_sihirlite_bud",
     "cyclomod:medium_sihirlite_bud",
-    "cyclomod:large_sihirlite_bud"
+    "cyclomod:large_sihirlite_bud",
+    "cyclomod:willovium_stairs",
+    "cyclomod:willovium_slab",
+    "cyclomod:willovium_fence",
+    "cyclomod:willovium_fence_gate",
+    "cyclomod:willovium_wall",
+    "cyclomod:willovium_button",
+    "cyclomod:willovium_pressure_plate",
+    "cyclomod:willovium_door",
+    "cyclomod:willovium_trapdoor"
   ]
 }

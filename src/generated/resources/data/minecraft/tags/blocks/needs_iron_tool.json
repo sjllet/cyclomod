@@ -6,8 +6,14 @@
     "cyclomod:end_stone_willovium_ore",
     "cyclomod:willovium_block",
     "cyclomod:raw_willovium_block",
-    "cyclomod:sihirlite_block",
-    "cyclomod:budding_sihirlite",
-    "cyclomod:sihirlite_cluster"
+    "cyclomod:willovium_stairs",
+    "cyclomod:willovium_slab",
+    "cyclomod:willovium_fence",
+    "cyclomod:willovium_fence_gate",
+    "cyclomod:willovium_wall",
+    "cyclomod:willovium_button",
+    "cyclomod:willovium_pressure_plate",
+    "cyclomod:willovium_door",
+    "cyclomod:willovium_trapdoor"
   ]
 }

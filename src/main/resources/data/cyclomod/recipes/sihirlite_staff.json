@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  S",
+    " P ",
+    "P  "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "cyclomod:sihirlite_shard"
+    }
+  },
+  "result": {
+    "item": "cyclomod:sihirlite_staff"
+  }
+}

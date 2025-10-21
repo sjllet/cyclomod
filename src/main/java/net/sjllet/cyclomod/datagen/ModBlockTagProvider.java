@@ -40,9 +40,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                         ModBlocks.SIHIRLITE_CLUSTER.get(),
                         ModBlocks.SMALL_SIHIRLITE_BUD.get(),
                         ModBlocks.MEDIUM_SIHIRLITE_BUD.get(),
-                        ModBlocks.LARGE_SIHIRLITE_BUD.get());
+                        ModBlocks.LARGE_SIHIRLITE_BUD.get(),
+                        ModBlocks.WILLOVIUM_STAIRS.get(),
+                        ModBlocks.WILLOVIUM_SLAB.get(),
+                        ModBlocks.WILLOVIUM_FENCE.get(),
+                        ModBlocks.WILLOVIUM_FENCE_GATE.get(),
+                        ModBlocks.WILLOVIUM_WALL.get(),
+                        ModBlocks.WILLOVIUM_BUTTON.get(),
+                        ModBlocks.WILLOVIUM_PRESSURE_PLATE.get(),
+                        ModBlocks.WILLOVIUM_DOOR.get(),
+                        ModBlocks.WILLOVIUM_TRAPDOOR.get());
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL);
+        this.tag(BlockTags.NEEDS_STONE_TOOL);
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.WILLOVIUM_ORE.get(),
@@ -51,12 +60,30 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                         ModBlocks.END_STONE_WILLOVIUM_ORE.get(),
                         ModBlocks.WILLOVIUM_BLOCK.get(),
                         ModBlocks.RAW_WILLOVIUM_BLOCK.get(),
-                        ModBlocks.SIHIRLITE_BLOCK.get(),
+                        ModBlocks.WILLOVIUM_STAIRS.get(),
+                        ModBlocks.WILLOVIUM_SLAB.get(),
+                        ModBlocks.WILLOVIUM_FENCE.get(),
+                        ModBlocks.WILLOVIUM_FENCE_GATE.get(),
+                        ModBlocks.WILLOVIUM_WALL.get(),
+                        ModBlocks.WILLOVIUM_BUTTON.get(),
+                        ModBlocks.WILLOVIUM_PRESSURE_PLATE.get(),
+                        ModBlocks.WILLOVIUM_DOOR.get(),
+                        ModBlocks.WILLOVIUM_TRAPDOOR.get());
+
+        this.tag(ModTags.Blocks.NEEDS_WILLOVIUM_TOOL)
+                .add(ModBlocks.SIHIRLITE_BLOCK.get(),
                         ModBlocks.BUDDING_SIHIRLITE.get(),
                         ModBlocks.SIHIRLITE_CLUSTER.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.WILLOVIUM_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.WILLOVIUM_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.WILLOVIUM_WALL.get());
     }
 }

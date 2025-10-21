@@ -27,6 +27,15 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.DEEPSLATE_WILLOVIUM_ORE.get());
                         output.accept(ModBlocks.NETHER_WILLOVIUM_ORE.get());
                         output.accept(ModBlocks.END_STONE_WILLOVIUM_ORE.get());
+                        output.accept(ModBlocks.WILLOVIUM_STAIRS.get());
+                        output.accept(ModBlocks.WILLOVIUM_SLAB.get());
+                        output.accept(ModBlocks.WILLOVIUM_BUTTON.get());
+                        output.accept(ModBlocks.WILLOVIUM_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.WILLOVIUM_FENCE.get());
+                        output.accept(ModBlocks.WILLOVIUM_FENCE_GATE.get());
+                        output.accept(ModBlocks.WILLOVIUM_WALL.get());
+                        output.accept(ModBlocks.WILLOVIUM_DOOR.get());
+                        output.accept(ModBlocks.WILLOVIUM_TRAPDOOR.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
                         output.accept(ModBlocks.SIHIRLITE_BLOCK.get());
@@ -42,6 +51,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RIVATO_GUM.get());
                         output.accept(ModItems.ALCOHOL.get());
                         output.accept(ModItems.CANNON_CORE.get());
+                        output.accept(ModItems.SIHIRLITE_STAFF.get());
+                        output.accept(ModItems.WILLOVIUM_SWORD.get());
+                        output.accept(ModItems.WILLOVIUM_PICKAXE.get());
+                        output.accept(ModItems.WILLOVIUM_AXE.get());
+                        output.accept(ModItems.WILLOVIUM_SHOVEL.get());
+                        output.accept(ModItems.WILLOVIUM_HOE.get());
                     })
                     .build());
 

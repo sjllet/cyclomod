@@ -39,6 +39,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.END_STONE_WILLOVIUM_ORE.get(), ModItems.RAW_WILLOVIUM.get()));
         this.add(ModBlocks.NETHER_WILLOVIUM_ORE.get(),
                 block -> createNuggetOreDrops(ModBlocks.NETHER_WILLOVIUM_ORE.get(), ModItems.WILLOVIUM_NUGGET.get()));
+
+        this.dropSelf(ModBlocks.WILLOVIUM_STAIRS.get());
+        this.dropSelf(ModBlocks.WILLOVIUM_BUTTON.get());
+        this.dropSelf(ModBlocks.WILLOVIUM_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.WILLOVIUM_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.WILLOVIUM_FENCE.get());
+        this.dropSelf(ModBlocks.WILLOVIUM_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.WILLOVIUM_WALL.get());
+
+        this.add(ModBlocks.WILLOVIUM_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WILLOVIUM_SLAB.get()));
+        this.add(ModBlocks.WILLOVIUM_DOOR.get(),
+                block -> createDoorTable(ModBlocks.WILLOVIUM_DOOR.get()));
     }
 
     protected LootTable.Builder createNuggetOreDrops(Block pBlock, Item item) {

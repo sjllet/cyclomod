@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cyclomod:block/willovium_slab"
+    },
+    "type=double": {
+      "model": "cyclomod:block/willovium_block"
+    },
+    "type=top": {
+      "model": "cyclomod:block/willovium_slab_top"
+    }
+  }
+}

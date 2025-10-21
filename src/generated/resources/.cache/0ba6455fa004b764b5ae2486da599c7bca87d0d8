@@ -1,6 +1,11 @@
-// 1.20.1	2025-10-19T10:19:31.9760296	Tags for minecraft:block mod id cyclomod
+// 1.20.1	2025-10-20T22:07:34.1410106	Tags for minecraft:block mod id cyclomod
 4d033504d89dd349c313d878aa55a344478f170b data/cyclomod/tags/blocks/metal_detector_valuables.json
+05bfa5957139c7e74485d26fa008f94d6d9758ef data/cyclomod/tags/blocks/needs_willovium_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
-16ab92d2b29e11a489cd079d75c8ac719c8de0d7 data/minecraft/tags/blocks/mineable/pickaxe.json
+5cbaf9fbfbfad347a148e1275dd741cb2ce19e69 data/minecraft/tags/blocks/fences.json
+9d18737b124ac8cfa1c022ec80450e752f96b907 data/minecraft/tags/blocks/fence_gates.json
+5935192bedd4fbb45bdab6d0986552312212e39e data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
-acfda1c71f6062d0a5c14812b4074ac08e8270d3 data/minecraft/tags/blocks/needs_iron_tool.json
+54458c2a8ba82db671263bca88627fadb1edbf72 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+4bdf2cfd87b832a92d48ace976dc78a03bf750ae data/minecraft/tags/blocks/walls.json

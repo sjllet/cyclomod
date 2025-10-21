@@ -1,4 +1,4 @@
-// 1.20.1	2025-10-19T10:19:31.9812909	Loot Tables
+// 1.20.1	2025-10-20T17:00:30.3227403	Loot Tables
 3a945502677472a0bffb5ae78dc3b78bc4dd36d9 data/cyclomod/loot_tables/blocks/deepslate_willovium_ore.json
 7e51cc69f2967d9a765ee26056d58c98d39e65e4 data/cyclomod/loot_tables/blocks/end_stone_willovium_ore.json
 1e4d40740a7a96a7c20e386aa7565369e7b0c569 data/cyclomod/loot_tables/blocks/nether_willovium_ore.json
@@ -6,4 +6,13 @@ baa348439941f5ccdbac2a010bdbafb7b3d96657 data/cyclomod/loot_tables/blocks/raw_wi
 feb8ab16d4167b792f01bdfafe5b746c340d1bf5 data/cyclomod/loot_tables/blocks/sihirlite_block.json
 6a9ed5c15acd82aef59349c294beaeeafc91586c data/cyclomod/loot_tables/blocks/sihirlite_cluster.json
 976d6e2a844038c0832a1f2b6a910fb97a315dc9 data/cyclomod/loot_tables/blocks/willovium_block.json
+7d0c9070ff6c47bfb341354d952c8e2665fd0d46 data/cyclomod/loot_tables/blocks/willovium_button.json
+8a9a5bc2d4bb922f962ab7755e0b591ae84e35fe data/cyclomod/loot_tables/blocks/willovium_door.json
+adc878f27d9b2adb5c583607bfba61c59bbf3cb4 data/cyclomod/loot_tables/blocks/willovium_fence.json
+b7f44888e6999f45dc92712292dee0a0ffe11510 data/cyclomod/loot_tables/blocks/willovium_fence_gate.json
 259f3118c99a026934a60f842112e6ae711f65f7 data/cyclomod/loot_tables/blocks/willovium_ore.json
+ceb43542be090c09c175df70f01697222666700a data/cyclomod/loot_tables/blocks/willovium_pressure_plate.json
+fc2e079021835100c8dca9758516dfbec5e584da data/cyclomod/loot_tables/blocks/willovium_slab.json
+0d946a73e4c901ee08f9f10767726c70d87a37c5 data/cyclomod/loot_tables/blocks/willovium_stairs.json
+d143cc911e4e0b8f295650e33627c45b8057e7ba data/cyclomod/loot_tables/blocks/willovium_trapdoor.json
+8eeedc438593a53553c6fc4de6ea3fc4d32682cc data/cyclomod/loot_tables/blocks/willovium_wall.json
